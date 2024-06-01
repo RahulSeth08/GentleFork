@@ -1,7 +1,8 @@
 .deal {
     min-height: 75vh;
-    background: url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\deal-bg.webp) no-repeat;
-    background-size: cover;
+    /* background: url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\deal-bg.webp) no-repeat; */
+    background: url('../../public/assets/deal-bg.webp') no-repeat;   /* ALWAYS USE paths by ../ vala trick  */
+     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;

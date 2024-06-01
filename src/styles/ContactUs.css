@@ -1,5 +1,5 @@
 .contact {
-    background:url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\contact-bg.webp) no-repeat;
+    background:url('../../public/assets/contact-bg.webp') no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 7rem;    
