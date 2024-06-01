@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import "../styles/PreNavbar.css"
 
 const Prenavbar = () => {
@@ -8,17 +8,17 @@ const Prenavbar = () => {
 
 <header>
 
-        <div id="menu" className="fas fa-bars"></div>
+        {/* <div id="menu" className="fas fa-bars"></div>  {menu hata diya} */}  
 
         <a href="#home" className="logo"><i className="fa-solid fa-dog"></i> GentlePaws </a>
 
         <nav className="navbar">
-            <a href="#home">home</a>
-            <a href="#category">category</a>
-            <a href="#featured">features</a>
-            <a href="#products">products</a>
-            <a href="#offer">offers</a>
-            <a href="#contact">contact</a>
+            <a href="#home">Home</a>
+            <a href="#category">Category</a>
+            <a href="#featured">Features</a>
+            <a href="#products">Products</a>
+            <a href="#offer">Offers</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <div className="icons">

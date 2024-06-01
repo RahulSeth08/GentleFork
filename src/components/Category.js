@@ -1,5 +1,6 @@
 import React from 'react'
 import  "../styles/Category.css"
+import { Button, ButtonGroup } from '@mui/material'
 
 const Category = () => {
   return (
@@ -12,6 +13,7 @@ const Category = () => {
                 <img src="assets/Pet_1.png" alt="" />
                 <h3>dog food</h3>
                 <a href="#" className="btn">Buy now</a>
+                {/* <Button name="Buy Now"/> */}
             </div>
 
             <div className="box">

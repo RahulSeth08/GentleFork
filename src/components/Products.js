@@ -11,7 +11,7 @@ const Products = () => {
 <div className="box-container">
 
     <div className="box">
-        <img src="assets/Cama_Retangular_p1.png" alt="" />
+        <img src="assets\Cama_Retangular_p1.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>
@@ -27,7 +27,7 @@ const Products = () => {
     </div>
 
     <div className="box">
-        <img src="assets/bol_pet_p2.png" alt="" />
+        <img src="assets\bol_pet_p2.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>
@@ -43,7 +43,7 @@ const Products = () => {
     </div>
 
     <div className="box">
-        <img src="assets/Premier_Gourmet_salmao.png" alt="" />
+        <img src="assets\Premier_Gourmet_salmao.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>
@@ -59,7 +59,7 @@ const Products = () => {
     </div>
 
     <div className="box">
-        <img src="assets/racao-golden-gatos-p4.png" alt="" />
+        <img src="assets\racao-golden-gatos-p4.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>
@@ -75,7 +75,7 @@ const Products = () => {
     </div>
 
     <div className="box">
-        <img src="assets/gaiola-ramster_p5_.png" alt="" />
+        <img src="assets\gaiola-ramster_p5_.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>
@@ -91,7 +91,7 @@ const Products = () => {
     </div>
 
     <div className="box">
-        <img src="assets/racao-golden-p6.png" alt="" />
+        <img src="assets\racao-golden-p6.png" alt="" />
         <div className="content">
             <div className="stars">
                 <i className="fas fa-star"></i>

@@ -1,0 +1,30 @@
+.home{
+    min-height: 75vh;
+    background: url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\home-bg-main_2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the content inside the section */
+.home .content {
+    text-align: center;
+}
+
+/* Styles for the spans inside the content */
+.home .content span {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Styles for the h3 elements inside the content */
+.home .content h3 {
+    color: #333;
+    font-size: 5.5rem;
+}
+
+/* Styles for the button inside the content */
+.home .content .btn {
+    background: #fff;
+}

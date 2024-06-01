@@ -36,3 +36,173 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* box container , btn ke liye */
+.featured .box-container .box .price {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
+  line-height: 6rem;
+  border-radius: 50%;
+  background: var(--yellow);
+  color: #333;
+  font-size: 2rem;
+}
+
+.featured .box-container .box .content {
+  padding: 1rem;
+}
+
+
+.featured .box-container .box .content .stars i {
+  color: var(--yellow);
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .7rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  color: #333;
+  background: var(--yellow);
+  position: relative;
+  box-shadow: 0 .5rem 1rem;
+  overflow: hidden;
+  z-index: 0;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 0% 0%, 0 100%);
+  z-index: -1;
+  background: #444;
+  transition: .3s cubic-bezier(.38,1.15,.7,1.12);
+}
+.btn:hover:before {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.btn:hover {
+  color: var(--yellow);
+}
+
+
+@media (max-width: 991px) {
+  html {
+      font-size: 55%;
+  }
+
+  #menu {
+      display: block;
+  }
+
+  header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      text-align: center;
+      padding: 2rem;
+      z-index: 1000;
+      border-top: .1rem solid rgba(0, 0, 0, .1);
+      transform-origin: top;
+      transform: scaleY(0);
+      opacity: 0;
+  }
+
+  header .navbar a {
+      font-size: 2rem;
+      padding: 1.5rem;
+      display: block;
+  }
+
+  header .navbar.nav-toggle {
+      transform: scaleY(1);
+      opacity: 1;
+  }
+
+  section {
+      padding: 1rem 3%;
+  }
+
+  .home {
+      background-position: left;
+  }
+
+  .home .content h3 {
+      font-size: 4.3rem;
+  }
+
+  .featured .box-container .box {
+      flex-flow: column;
+  }
+
+  .featured .box-container .box img {
+      width: 100%;
+  }
+
+  .products .box-container .box {
+      flex-flow: column;
+  }
+
+  .products .box-container .box img {
+      width: 100%;
+  }
+
+  .products .box-container .box .content {
+      text-align: center;
+  }
+
+  .offer .box-container .box .content h3 {
+      font-size: 2.5rem;
+  }
+
+  .contact form {
+      padding: 2rem;
+  }
+
+  .contact form .inputBox input {
+      width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+      font-size: 50%;
+  }
+
+  .heading {
+      font-size: 2.2rem;
+  }
+
+  .home {
+      justify-content: center;
+  }
+
+  .home .content {
+      text-align: center;
+  }
+
+  .category .box-container .box {
+      width: 100%;
+  }
+
+  .deal h3 {
+      width: auto;
+      font-size: 4rem;
+  }
+
+  .offer .box-container .box .content span {
+      font-size: 1.5rem;
+  }
+}

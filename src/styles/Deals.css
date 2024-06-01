@@ -1,0 +1,58 @@
+.deal {
+    min-height: 75vh;
+    background: url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\deal-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.deal span {
+    color: #eee;
+    font-size: 2rem;
+}
+
+.deal h3 {
+    color: #fff;
+    font-size: 4.5rem;
+    padding: 1rem 0;
+    width: 45rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .7rem 2.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: #333;
+    background: var(--yellow);
+    position: relative;
+    box-shadow: 0 .5rem 1rem;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 0% 0%, 0 100%);
+    z-index: -1;
+    background: #444;
+    transition: .3s cubic-bezier(.38,1.15,.7,1.12);
+}
+
+.btn:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.btn:hover {
+    color: var(--yellow);
+}

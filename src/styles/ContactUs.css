@@ -1,0 +1,49 @@
+.contact {
+    background:url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\contact-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 7rem;    
+}
+
+.contact .heading i{
+    color: #fff; 
+}
+
+.contact form{
+    padding: 2rem 10%;
+    text-align: center;   
+}
+
+.contact form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact form .inputBox input, .contact form textarea{
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    width: 49%;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    text-transform: none;    
+}
+
+.contact form .inputBox input::placeholder, .contact form textarea::placeholder{
+    text-transform: capitalize;    
+}
+
+.contact form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;    
+}
+
+.contact form .btn{
+    cursor: pointer;
+    background:#fff;    
+}
+
+.contact form .btn:hover{
+    background: #666;    
+}
