@@ -1,6 +1,6 @@
 .home{
     min-height: 75vh;
-    background: url(C:\Users\aparn\OneDrive\Desktop\React_Apps\petshop_website\public\assets\home-bg-main_2.png) no-repeat;
+    background: url("../../public/assets/home-bg-main_2.png") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
